@@ -1,0 +1,71 @@
+* {
+	color: #163640;
+	/* @see https://fonts.google.com/specimen/Jura */
+	font-family: 'Jura', sans-serif;	
+}
+label {
+	font-weight: 600;
+	margin: 0 0.5em;
+}
+span {
+	margin: 0 0.5em;
+}
+textarea, div[contenteditable=true] {
+    overflow: hidden;
+    resize: none;
+}
+footer {
+	position: absolute;
+	left: 200px;	
+	top: 1150px;	
+	width: 550px;
+}
+footer a {
+	font-style: italic;
+}
+
+.t-buttons {
+	position: absolute;
+	/* border: 1px solid red; */
+	width:600px;
+}
+.t-buttons img {
+	/* border: 1px solid orange; */
+	width: 100%;
+}
+.t-b {
+	position: absolute;
+    width: 20%;
+    height: 20%;
+}
+.t-b-10000 {
+	position: absolute;
+    top: 38.5%;
+    left: 9.9%;
+}
+.t-b-01000 {
+	position: absolute;
+    top: 16%;
+    left: 19%;
+}
+.t-b-00100 {
+	position: absolute;
+    top: 6.7%;
+    left: 39%;
+}
+.t-b-00010 {
+	position: absolute;
+    top: 16%;
+    left: 59.2%;
+}
+.t-b-00001 {
+	position: absolute;
+    top: 38.5%;
+    left: 68.1%;
+}
+.t-b.t-push {
+    top: 35%;
+    left: 34.9%;
+	width: 28.5%;
+    height: 28.5%;
+}

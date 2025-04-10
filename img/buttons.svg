@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="packed-circles-chart_OXjYx"
+   class="flex-1  mt-2 w-full"
+   style="font-family:'Helvetica Neue Light', 'Lucida Grande', Calibri, Arial, sans-serif"
+   version="1.1"
+   sodipodi:docname="buttons.svg"
+   width="600"
+   height="600"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.6683333"
+     inkscape:cx="300"
+     inkscape:cy="139.36064"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="packed-circles-chart_OXjYx" />
+  <g
+     id="g1"
+     transform="rotate(-90,335.57368,191.23555)"
+     style="fill:#999999">
+    <path
+       d="m 440.54443,188.83795 a 106.16955,106.16955 0 1 1 -212.3391,0 106.16955,106.16955 0 1 1 212.3391,0 z"
+       id="group_id_boss3"
+       stroke="#FFFF"
+       stroke-width="1"
+       stroke-dasharray="none"
+       fill="#8da0cb"
+       class="entity_nested group_color_2 tooltip-hover"
+       opacity="1"
+       style="fill:#999999" />
+  </g>
+  <g
+     id="g2"
+     transform="rotate(-90,335.57368,191.23555)">
+    <path
+       d="m 376.93934,188.83795 a 45.936411,45.936411 0 1 1 -91.87282,0 45.936411,45.936411 0 1 1 91.87282,0 z"
+       id="group_id_"
+       stroke="#FFFF"
+       stroke-width="1"
+       stroke-dasharray="none"
+       class="entity_nested group_color_ tooltip-hover"
+       opacity="0.2" />
+  </g>
+  <g
+     id="g3"
+     transform="rotate(-90,335.57368,191.23555)">
+    <path
+       d="m 433.61468,188.83795 a 26.5214,26.5214 0 1 1 -53.0428,0 26.5214,26.5214 0 1 1 53.0428,0 z"
+       id="path2"
+       stroke="#FFFF"
+       stroke-width="1"
+       stroke-dasharray="none"
+       class="entity_nested group_color_ tooltip-hover"
+       opacity="0.2" />
+  </g>
+  <g
+     id="g4"
+     transform="rotate(-90,335.57368,191.23555)">
+    <path
+       d="m 412.50758,241.43629 a 26.5214,26.5214 0 1 1 -53.0428,0 26.5214,26.5214 0 1 1 53.0428,0 z"
+       id="path3"
+       stroke="#FFFF"
+       stroke-width="1"
+       stroke-dasharray="none"
+       class="entity_nested group_color_ tooltip-hover"
+       opacity="0.2" />
+  </g>
+  <g
+     id="g5"
+     transform="rotate(-90,335.57368,191.23555)">
+    <path
+       d="m 412.50758,136.23962 a 26.5214,26.5214 0 1 1 -53.0428,0 26.5214,26.5214 0 1 1 53.0428,0 z"
+       id="path4"
+       stroke="#FFFF"
+       stroke-width="1"
+       stroke-dasharray="none"
+       class="entity_nested group_color_ tooltip-hover"
+       opacity="0.2" />
+  </g>
+  <g
+     id="g6"
+     transform="rotate(-90,335.57368,191.23555)">
+    <path
+       d="m 360.89628,112.82235 a 26.5214,26.5214 0 1 1 -53.0428,0 26.5214,26.5214 0 1 1 53.0428,0 z"
+       id="path5"
+       stroke="#FFFF"
+       stroke-width="1"
+       stroke-dasharray="none"
+       class="entity_nested group_color_ tooltip-hover"
+       opacity="0.2" />
+  </g>
+  <g
+     id="g7"
+     transform="rotate(-90,335.57368,191.23555)">
+    <path
+       d="m 360.89628,264.85356 a 26.5214,26.5214 0 1 1 -53.0428,0 26.5214,26.5214 0 1 1 53.0428,0 z"
+       id="path6"
+       stroke="#FFFF"
+       stroke-width="1"
+       stroke-dasharray="none"
+       class="entity_nested group_color_ tooltip-hover"
+       opacity="0.2" />
+  </g>
+</svg>
