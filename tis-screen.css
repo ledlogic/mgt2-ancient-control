@@ -1,7 +1,7 @@
 * {
 	color: #163640;
 	/* @see https://fonts.google.com/specimen/Jura */
-	font-family: 'Jura', sans-serif;	
+	font-family: 'Jura', 'Verdana', sans-serif;	
 }
 label {
 	font-weight: 600;
@@ -39,27 +39,22 @@ footer a {
     height: 20%;
 }
 .t-b-10000 {
-	position: absolute;
     top: 38.5%;
     left: 9.9%;
 }
 .t-b-01000 {
-	position: absolute;
     top: 16%;
     left: 19%;
 }
 .t-b-00100 {
-	position: absolute;
     top: 6.7%;
     left: 39%;
 }
 .t-b-00010 {
-	position: absolute;
     top: 16%;
     left: 59.2%;
 }
 .t-b-00001 {
-	position: absolute;
     top: 38.5%;
     left: 68.1%;
 }
@@ -71,31 +66,28 @@ footer a {
 }
 .t-sliders {
 	position: absolute;
-	/* border: 1px solid red; */
-	top:600px;
+	top:640px;
 	width:450px;
+	height:200px;
 }
 .t-s {
 	position: absolute;
     width: 20%;
-    height: 40%;
+    height: 30%;
 }
 .t-s img {
 	/* border: 1px solid orange; */
 	width: 100%;
 }
 .t-s1 {
-	position: absolute;
-  	top: 65%;
+  	top: 0%;
     left: 25%;
 }
 .t-s2 {
-	position: absolute;
-    top: 65%;
+    top: 0%;
     left: 55%;
 }
 .t-s3 {
-	position: absolute;
-    top: 65%;
+    top: 0%;
     left: 85%;
 }
