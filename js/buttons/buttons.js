@@ -25,6 +25,21 @@ var b = {
 		}
 	],
 	
+	sliders: [
+		{
+			sel: 's1',
+			setting: 1
+		},
+		{
+			sel: 's2',
+			setting: 1
+		},
+		{
+			sel: 's3',
+			setting: 1
+		}
+	],
+	
 	pushBtn: {
 		sel: "t-push",
 		active: false
@@ -61,6 +76,13 @@ var b = {
 			light.el.addClass("t-b-" + light.sel);
 			light.el.on("click", b.lightClick);
 		});
+	
+		_.each(b.sliders, function (slider) {
+			cls = "[data-sel=" + slider.sel + "]";
+			slider.el = $(cls);
+			slider.el.addClass("t-" + slider.sel);
+			slider.el.on("click", b.sliderClick);
+		});
 	},
 	
 	lightClick: function() {
@@ -71,6 +93,23 @@ var b = {
 				light.active = !light.active;
 			}
 		});
+	},
+	
+	sliderClick: function() {
+		var sel = $(this).data("sel");
+		
+		_.each(b.sliders, function (slider) {
+			console.log(slider.sel);
+			if (slider.sel == sel) {
+				slider.setting++;
+				if (slider.setting > 2) {
+					slider.setting = 0;
+				}
+				var $img = $(slider.el).find("img");
+				var src = "img/slider-" + slider.setting + ".png";
+				$img.attr("src", src);
+			}
+		});		
 	},
 
 	pushClick: function() {
@@ -96,8 +135,14 @@ var b = {
 				}
 			});
 			var bin = b.decimalToBinary(n);
-			var c = b.capsule(bin)
-			var s = "Please report:\nCAPSULE: "+ c;
+			var c = b.capsule(bin);
+			
+			var s = "";
+			_.each(b.sliders, function (slider) {
+				s += slider.setting;
+			});
+			
+			var s = "Please report:\nCAPSULE: "+ c + "-" + s;
 			alert(s);
 		}
 	},

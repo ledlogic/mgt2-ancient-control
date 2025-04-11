@@ -69,3 +69,33 @@ footer a {
 	width: 28.5%;
     height: 28.5%;
 }
+.t-sliders {
+	position: absolute;
+	/* border: 1px solid red; */
+	top:600px;
+	width:450px;
+}
+.t-s {
+	position: absolute;
+    width: 20%;
+    height: 40%;
+}
+.t-s img {
+	/* border: 1px solid orange; */
+	width: 100%;
+}
+.t-s1 {
+	position: absolute;
+  	top: 65%;
+    left: 25%;
+}
+.t-s2 {
+	position: absolute;
+    top: 65%;
+    left: 55%;
+}
+.t-s3 {
+	position: absolute;
+    top: 65%;
+    left: 85%;
+}
